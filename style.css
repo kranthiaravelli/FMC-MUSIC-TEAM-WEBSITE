@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    color: white;
+}
+
+nav h1 {
+    font-family: 'Google Sans';
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.hero-section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.announce {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.announce ol {
+    font-size: 16px;
+    font-family: 'Source Sans 3';
+    color: rgb(0, 0, 0);
+}
+
+span {
+    font-size: 13px;
+    color: red;
+    font-weight: 900;
+    padding-left: 5px;
+}
+
+.whole-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-self: center;
+    padding: 0 50px;
+}
+
+.head-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px 0 0 0;
+    gap: 10px;
+}
+
+.head-container .announcements:first-child {
+    flex: 2; 
+}
+
+.head-container .announcements:last-child {
+    flex: 1;
+}
+
+.announcements {
+    font-family: "Google Sans";
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(0, 0, 0, 0.569);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.announcements h2{
+    font-size: 28px;
+    letter-spacing: -1px;
+}
+
+.announcements p {
+    font-family: "Source Sans 3";
+    font-size: 15px;
+    color: rgb(220, 74, 74);
+    padding-left: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rules-container {
+    width: 100%;
+    height: auto;
+    padding: 10px 60px;
+    font-family: 'Source Sans 3';
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.rules {
+    width: 100%;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.rules-container h3 {
+    font-size: 26px;
+    font-family: "Google Sans";
+    letter-spacing: -1px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.742);
+    font-family: "Source Sans 3";
+}
+
+@media (max-width: 642px) {
+    nav h1{
+        font-size: 27px;
+    }
+
+    .announcements h2 {
+        font-size: 25px;
+    }
+
+    .head-container {
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+
+    .whole-container {
+        padding: 0 20px;
+    }
+
+    .rules-container {
+        padding: 10px 20px;
+    }
+
+    .rules {
+        padding-left: 20px;
+    }
+}
