@@ -135,8 +135,6 @@ span {
 }
 
 .reharsals {
-    font-size: 26px;
-    font-family: 'Google Sans';
     padding-left: 60px;
     margin-top: 20px;
     margin-bottom: -10px;
@@ -145,10 +143,26 @@ span {
     align-items: start;
 }
 
+.reharsals h3 {
+    font-size: 26px;
+    font-family: 'Google Sans';
+    padding-bottom: 10px;
+    margin-top: -10px;
+}
+
+.heading {
+    font-family: "Source Sans 3";
+    padding-left: 0;
+    font-size: 22px;
+    color: black;
+}
+
 .reharsals p {
-    font-size: 12px;
+    font-size: 17px;
     font-family: 'Source Sans 3';
     font-weight: 600;
+    padding-bottom: 8px;
+    margin-top: -5px;
 }
 
 button {
