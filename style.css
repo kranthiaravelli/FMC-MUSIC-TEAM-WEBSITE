@@ -253,6 +253,15 @@ hr {
     color: rgb(213, 82, 82);
 }
 
+.icon-title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 @media (max-width: 642px) {
     nav h1{
         font-size: 27px;
