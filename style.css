@@ -8,6 +8,10 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+body {
+    background-color: rgb(236, 235, 235);
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -31,7 +35,7 @@ nav h1 {
 
 .hero-section {
     width: 100%;
-    min-height: 100vh;
+    min-height: auto;
 }
 
 .announce {
@@ -206,9 +210,47 @@ footer p {
 
 hr {
     margin-top: 20px;
-    width: 94%;
+    width: 93%;
     margin-left: auto;
     margin-right: auto;
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.561);
+}
+
+.images-container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    gap: 10px;
+}
+
+.images-container h2 {
+    font-size: 30px;
+    font-family: "Google Sans";
+    letter-spacing: -1px;
+}
+
+.images-container p {
+    font-size: 14px;
+    font-family: 'Source Sans 3';
+    color: rgba(0, 0, 0, 0.777);
+}
+
+.image-holder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.image-holder p {
+    font-size: 18px;
+    color: rgb(213, 82, 82);
 }
 
 @media (max-width: 642px) {
@@ -262,5 +304,22 @@ hr {
         background-color: rgba(0, 0, 0, 0.823);
         outline: none;
         box-shadow: none;
+    }
+
+    .images-container {
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+
+    .images-container h2 {
+        font-size: 28px;
+    }
+
+    .images-container p {
+        font-size: 10px;
+    }
+
+    .image-holder p {
+        font-size: 15px;
     }
 }
