@@ -25,6 +25,13 @@ nav {
     border-radius: 50px;
     color: white;
 }
+.date {
+    color: rgba(0, 0, 0, 0.509);
+    font-weight: 400;
+    font-family: "Source Sans 3";
+    font-size: 12px;
+    font-style: italic;
+}
 
 nav h1 {
     font-family: 'Google Sans';
