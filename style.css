@@ -292,6 +292,40 @@ hr {
     justify-content: flex-start;
 }
 
+.verse-banner {
+    width: 93%;
+    height: 150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, 0.406)), url(Top\ 10\ Cinematic\ LUTs\ 2025\ _\ FREE\ DOWNLOAD.jpg);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: -10px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Google Sans";
+    font-size: 12px;
+    cursor: default;
+}
+
+.verse-banner h2 {
+    font-weight: 200;
+    letter-spacing: -.5px;
+}
+
+.verse {
+    font-size: 12px;
+    font-family: 'Google Sans';
+    color: white;
+    letter-spacing: 0;
+    padding-left: 0;
+    font-weight: 100;
+}
+
 @media (max-width: 642px) {
     nav h1{
         font-size: 27px;
@@ -364,5 +398,13 @@ hr {
 
     .announcements p{
         padding-left: 20px;
+    }
+}
+
+@media (max-width: 615px) {
+    .verse-banner {
+        padding: 0 20px;
+        font-size: 10px;
+        height: 120px;
     }
 }
